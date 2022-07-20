@@ -7,15 +7,10 @@
 
 import UIKit
 
-class ExtendedPersonsListViewController: UITableViewController {
+class ExtendedPersonsListViewController: UITableViewController, PersonsViewController {
 	
 	// MARK: - Public Properties
 	var persons: [Person]!
-
-	// MARK: - Life Cycle methods
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -42,5 +37,9 @@ class ExtendedPersonsListViewController: UITableViewController {
 
         return cell
     }
+	
+	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+		tableView.deselectRow(at: indexPath, animated: true)
+	}
 
 }

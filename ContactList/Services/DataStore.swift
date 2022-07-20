@@ -9,7 +9,7 @@ import Foundation
 
 class DataStore {
 	
-	static let names = [
+	let names = [
 		"John",
 		"Sharon",
 		"Aaron",
@@ -21,7 +21,7 @@ class DataStore {
 		"Allan"
 	]
 	
-	static let surnames = [
+	let surnames = [
 		"Murphy",
 		"Jankin",
 		"Williams",
@@ -33,7 +33,7 @@ class DataStore {
 		"Pennyworth"
 	]
 	
-	static let emails = [
+	let emails = [
 		"kosact@gmail.com",
 		"dmiller@icloud.com",
 		"mbalazin@att.net",
@@ -45,7 +45,7 @@ class DataStore {
 		"akoblin@mac.com",
 	]
 	
-	static let phones = [
+	let phones = [
 		"(875) 536-8891",
 		"(949) 445-5806",
 		"(955) 864-9495",

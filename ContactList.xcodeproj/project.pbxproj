@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49601595288853EE00B87899 /* ContainerTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49601594288853EE00B87899 /* ContainerTabBarViewController.swift */; };
 		499F41892887710C003704BE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F41882887710C003704BE /* Person.swift */; };
 		499F418B28877524003704BE /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F418A28877524003704BE /* ContactDetailsViewController.swift */; };
 		499F418E28881794003704BE /* ExtendedPersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F418D28881793003704BE /* ExtendedPersonsListViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49601594288853EE00B87899 /* ContainerTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerTabBarViewController.swift; sourceTree = "<group>"; };
 		499F41882887710C003704BE /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		499F418A28877524003704BE /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
 		499F418D28881793003704BE /* ExtendedPersonsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendedPersonsListViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 				49B50944288632C300600DAE /* PersonsListViewController.swift */,
 				499F418D28881793003704BE /* ExtendedPersonsListViewController.swift */,
 				499F418A28877524003704BE /* ContactDetailsViewController.swift */,
+				49601594288853EE00B87899 /* ContainerTabBarViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				49B50931288631B500600DAE /* AppDelegate.swift in Sources */,
 				49B50933288631B500600DAE /* SceneDelegate.swift in Sources */,
 				499F41892887710C003704BE /* Person.swift in Sources */,
+				49601595288853EE00B87899 /* ContainerTabBarViewController.swift in Sources */,
 				49B5094A288633EE00600DAE /* DataStore.swift in Sources */,
 				499F418B28877524003704BE /* ContactDetailsViewController.swift in Sources */,
 				49B50945288632C300600DAE /* PersonsListViewController.swift in Sources */,

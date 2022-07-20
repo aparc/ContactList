@@ -20,11 +20,12 @@ struct Person {
 	
 	static func getPersons() -> [Person] {
 		var persons: [Person] = []
+		let dataStore = DataStore()
 		
-		let names = DataStore.names.shuffled()
-		let surnames = DataStore.surnames.shuffled()
-		let emails = DataStore.emails.shuffled()
-		let phones = DataStore.phones.shuffled()
+		let names = dataStore.names.shuffled()
+		let surnames = dataStore.surnames.shuffled()
+		let emails = dataStore.emails.shuffled()
+		let phones = dataStore.phones.shuffled()
 		
 		for index in names.indices {
 			let person = Person(

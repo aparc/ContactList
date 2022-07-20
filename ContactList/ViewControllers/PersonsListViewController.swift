@@ -7,19 +7,10 @@
 
 import UIKit
 
-class PersonsListViewController: UITableViewController {
+class PersonsListViewController: UITableViewController, PersonsViewController {
 	
-	// MARK: - Private Properties
-	let persons = Person.getPersons()
-
-	// MARK: - Life Cycle Methods
-    override func viewDidLoad() {
-        super.viewDidLoad()
-		
-		let navigationController = tabBarController?.viewControllers?.last as? UINavigationController
-		let extendedPersonsListVC = navigationController?.topViewController as? ExtendedPersonsListViewController
-		extendedPersonsListVC?.persons = persons
-    }
+	// MARK: - Public Properties
+	var persons: [Person]!
 
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
